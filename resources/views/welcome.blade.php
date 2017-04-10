@@ -2,7 +2,12 @@
 
 @section('content')
     <div style="width:700px; margin:0 auto; min-height:200px; background-color:white; border:1px solid #d3e0e9; border-radius: 3px;">
-        <h1 style="text-align:center;">Fill out the form</h1>
+	<div style="margin:16px;">
+	<p><b>Form Test:</b></p>
+        <p><b>Admin:</b> testadmin1@email.com<br /> <b>Password:</b> abc123</p>
+	</div>
+		
+	 <h1 style="text-align:center;">Fill out the form</h1>
         <div style="margin:16px;">
             @if (count($errors) > 0)
                 <div class="alert alert-danger">
